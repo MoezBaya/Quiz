@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&display=swap');
+
+body{
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.game{
+	/*display: none;*/
+}
+.container{
+	background-color: white;
+	width: 800px;
+	height: 500px;
+	position: relative;
+	
+}
+
+.content{
+	padding: 50px;
+}
+
+.question{
+	font-size: 40px;
+}
+
+.answer{
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.submit{
+	background: purple;
+	color: white;
+	border: none;
+	height: 50px;
+	width: 100%;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+}
+
+.result{
+	display: none;
+	padding: 50px;
+	text-align: center;
+}
+
+.result h1{
+	font-size: 50px;
+}
+
+correct{
+	color: green;
+}
+
+.wrong{
+	color: red;
+}
+
+.play{
+	color: white;
+	background-color: rebeccapurple;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+}
